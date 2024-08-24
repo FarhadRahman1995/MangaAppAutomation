@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MangaAppTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MangaAppTests(failed)">
+    <classes>
+      <class name="com.mangaapp.MangaApp.MangaDetailsModalTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testMangaDetailsModal"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mangaapp.MangaApp.MangaDetailsModalTest -->
+      <class name="com.mangaapp.MangaApp.MangaSearchTest">
+        <methods>
+          <include name="testSearchFunctionality"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mangaapp.MangaApp.MangaSearchTest -->
+    </classes>
+  </test> <!-- MangaAppTests(failed) -->
+</suite> <!-- Failed suite [MangaAppTestSuite] -->

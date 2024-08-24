@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MangaAppTestSuite">
+    <test name="MangaAppTests">
+        <classes>
+            <class name="com.mangaapp.MangaApp.LoginTest"/>
+            <class name="com.mangaapp.MangaApp.MangaSearchTest"/>
+            <class name="com.mangaapp.MangaApp.MangaDetailsModalTest"/>
+        </classes>
+    </test>
+</suite>
